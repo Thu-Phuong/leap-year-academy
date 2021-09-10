@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47e999cb-58fb-4dec-987a-8a6c761f57b2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/coverage/clover.xml" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/clover.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/coverage/coverage-final.json" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/coverage-final.json" afterDir="false" />
@@ -68,7 +67,7 @@
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="Leap Year Tests.should return false when $d is an atypical common year" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="Leap Year Tests.should return false if $d is a typical common year" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
@@ -78,7 +77,21 @@
       <test-file value="$PROJECT_DIR$/src/test/leap-year-kata.test.ts" />
       <test-names>
         <test-name value="Leap Year Tests" />
-        <test-name value="should return false when $d is an atypical common year" />
+        <test-name value="should return false if $d is a typical common year" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Leap Year Tests.should return false if $d is an atypical common year" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/test/leap-year-kata.test.ts" />
+      <test-names>
+        <test-name value="Leap Year Tests" />
+        <test-name value="should return false if $d is an atypical common year" />
       </test-names>
       <method v="2" />
     </configuration>
@@ -96,7 +109,7 @@
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="Leap Year Tests.should return false when $d is an typical common year" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="Leap Year Tests.should return true when $d is an atypical leap year" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
@@ -106,31 +119,17 @@
       <test-file value="$PROJECT_DIR$/src/test/leap-year-kata.test.ts" />
       <test-names>
         <test-name value="Leap Year Tests" />
-        <test-name value="should return false when $d is an typical common year" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="Leap Year Tests.should return true if input is a typical leap year" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/test/leap-year-kata.test.ts" />
-      <test-names>
-        <test-name value="Leap Year Tests" />
-        <test-name value="should return true if input is a typical leap year" />
+        <test-name value="should return true when $d is an atypical leap year" />
       </test-names>
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Jest.Leap Year Tests" />
+        <item itemvalue="Jest.Leap Year Tests.should return true when $d is an atypical leap year" />
+        <item itemvalue="Jest.Leap Year Tests.should return false if $d is a typical common year" />
+        <item itemvalue="Jest.Leap Year Tests.should return false if $d is an atypical common year" />
         <item itemvalue="Jest.Leap Year Tests.should return false when $d is an atypical leap year" />
-        <item itemvalue="Jest.Leap Year Tests.should return false when $d is an typical common year" />
-        <item itemvalue="Jest.Leap Year Tests.should return false when $d is an atypical common year" />
-        <item itemvalue="Jest.Leap Year Tests.should return true if input is a typical leap year" />
       </list>
     </recent_temporary>
   </component>
